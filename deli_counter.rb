@@ -30,6 +30,9 @@ end
 
 def now_serving(line)
 
-   now_serving(katz_deli) #=> "Currently serving Ada."
+  name = line.shift
+
+  puts "Currently serving #{name}."
+
 
 end
