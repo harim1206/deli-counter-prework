@@ -10,7 +10,7 @@ def line(line)
     str = ""
 
     while i < line.size
-      str += "#{i+1}. #{line[i]}"
+      str += "#{i+1}. #{line[i]} "
       i += 1
     end
 
