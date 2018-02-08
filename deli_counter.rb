@@ -7,6 +7,7 @@ def line(line)
   else
 
     i = 0
+    str = ""
     while i < line.size
       str += "#{i+1}. #{line[i]}"
       i += 1
