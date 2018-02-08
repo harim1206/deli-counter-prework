@@ -15,6 +15,7 @@ def line(line)
       else
       str += "#{i+1}. #{line[i]} "
       i += 1
+      end
     end
 
     puts("The line is currently: #{str}")
