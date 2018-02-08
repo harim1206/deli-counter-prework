@@ -8,13 +8,13 @@ def line(line)
 
     i = 0
     str = ""
-    
+
     while i < line.size
       str += "#{i+1}. #{line[i]}"
       i += 1
     end
 
-    puts("The line is currently: #{string}")
+    puts("The line is currently: #{str}")
   end
 
 end
