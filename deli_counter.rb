@@ -29,3 +29,7 @@ end
 
 
 def now_serving
+
+   now_serving(katz_deli) #=> "Currently serving Ada."
+
+end
