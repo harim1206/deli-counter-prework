@@ -23,6 +23,6 @@ end
 def take_a_number (line, name)
 
 
-  puts "Welcome, #{name}. You are number 1 in line."
+  puts "Welcome, #{name}. You are number #{line.size} in line."
 
 end
