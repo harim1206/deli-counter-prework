@@ -28,7 +28,7 @@ def take_a_number (line, name)
 end
 
 
-def now_serving
+def now_serving(line)
 
    now_serving(katz_deli) #=> "Currently serving Ada."
 
