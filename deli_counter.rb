@@ -6,9 +6,9 @@ def line(line)
     puts ("The line is currently empty.")
   else
 
-    str = ""
-    line.each do |name|
-      str+=
+    i = 0
+    while i < line.size
+      str +=
 
     puts("The line is currently: #{string}")
   end
