@@ -13,8 +13,8 @@ def line(line)
       if i == line.size-1
         str += "#{i+1}. #{line[i]}"
       else
-      str += "#{i+1}. #{line[i]} "
-      i += 1
+        str += "#{i+1}. #{line[i]} "
+        i += 1
       end
     end
 
