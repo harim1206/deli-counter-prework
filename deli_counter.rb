@@ -8,7 +8,10 @@ def line(line)
 
     i = 0
     while i < line.size
-      str +=
+      str += "#{i+1}"
+
+      i+=1
+    end
 
     puts("The line is currently: #{string}")
   end
