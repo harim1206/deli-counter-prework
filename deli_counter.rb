@@ -18,3 +18,6 @@ def line(line)
     puts("The line is currently: #{strArr.join(" ")}")
   end
 end
+
+
+def take_a_number
