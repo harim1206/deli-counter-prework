@@ -15,7 +15,7 @@ def line(line)
       i += 1
     end
 
-    puts("The line is currently: #{str}")
+    puts("The line is currently: #{strArr.join(" ")}")
   end
 
 end
