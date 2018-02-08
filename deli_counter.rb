@@ -6,5 +6,6 @@ def line(line)
     puts ("The line is currently empty.")
   else
     puts("The line is currently: #{string}")
+  end
 
 end
